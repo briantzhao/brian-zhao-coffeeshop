@@ -1,0 +1,25 @@
+header, footer > section {
+    background-color:#FFF0ED;
+}
+.hero {
+    background-color:#FFF0ED;
+}
+button {
+    background-color:#5BACC3;
+    color: #FFF;
+    border-radius: 0;
+    border-width: 0;
+}
+.discount {
+    font-size: 2.813rem;
+    color:#FFF;
+    text-align: center;
+    background-color: #393939;
+    min-width: fit-content;
+    max-width: 90%;
+    margin-top:0rem;
+}
+.icon {
+    min-width: 3.125rem;
+    max-width: 7.5rem;
+}

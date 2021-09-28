@@ -1,0 +1,79 @@
+header {
+  background-color: #fff0ed;
+}
+.header__nitro {
+  color: #393939;
+  text-decoration: none;
+  display: inline;
+}
+.header-nav {
+  display: inline-block;
+}
+.header-nav__link {
+  padding-left: 1.25rem;
+  padding-right: 1.25rem;
+}
+.header-nav__link__shop-now {
+  color: #5bacc3;
+}
+.menu__hero-image {
+  background-image: url("../assets/images/coffee-circle.jpg");
+  width: 100%;
+  min-height: 35.938rem;
+  max-height: 37.5rem;
+  background-position: center;
+  background-size: cover;
+}
+.menu-title {
+  background-color: #393939;
+  min-width: 17.5rem;
+  max-width: 18.75rem;
+  min-height: 11.25rem;
+  max-height: 12.5rem;
+  color: #fff;
+  text-align: center;
+  margin: 0 auto;
+}
+.menu__nav {
+  background-color: #393939;
+  text-align: center;
+  width: 100%;
+}
+.menu__nav__link {
+  color: #fff;
+  border-left: 0.25rem solid #5bacc3;
+  padding-left: 1.25rem;
+  padding-right: 1.25rem;
+}
+.menu-section {
+  text-align: center;
+  margin: 0 auto;
+}
+.menu-section__item {
+  margin-bottom: 1rem;
+}
+.menu-section--pink {
+  background-color: #fff0ed;
+}
+.menu-section--gray {
+  background-color: #f7f7f7;
+}
+.menu-section__item__description {
+  font-style: italic;
+  margin-bottom: 0;
+}
+.menu-section__item__column {
+  margin-left: 30vw;
+  margin-right: 30vw;
+}
+.menu-section__title {
+  margin-top: 0;
+  padding-top: 1.25rem;
+}
+.menu-section__item__price {
+  margin-top: 0.5rem;
+  margin-bottom: 0;
+  padding-bottom: 1.25rem;
+  color: #5bacc3;
+  text-align: center;
+}
