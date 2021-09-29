@@ -1,0 +1,179 @@
+header,
+footer {
+  background-color: #fff0ed;
+}
+footer {
+  padding-bottom: 4rem;
+}
+.nav__link {
+  padding-left: 1.25rem;
+  padding-right: 1.25rem;
+}
+.nav__nitro {
+  display: inline;
+  margin: 0rem auto;
+}
+.hero {
+  background-color: #fff0ed;
+  display: flex;
+  justify-content: space-around;
+}
+.hero__title {
+  margin: 0;
+}
+.hero__text {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+button {
+  background-color: #5bacc3;
+  color: #fff;
+  border-radius: 0;
+  border-width: 0;
+  font-size: 1.125rem;
+}
+.products {
+  text-align: center;
+  background-color: #f7f7f7;
+  padding-top: 2rem;
+  padding-bottom: 2rem;
+}
+.products__title {
+  margin-top: 0;
+}
+.products__all__cards {
+  display: flex;
+  justify-content: center;
+  gap: 4rem;
+}
+.products__card {
+  display: flex;
+  flex-direction: column;
+  border-radius: 0.625rem;
+  min-width: 20.625rem;
+  max-width: 21.875rem;
+  min-height: 27.5rem;
+  max-height: 28.75rem;
+  box-shadow: 0 0.313rem 0.563rem 0.063rem rgba(0, 0, 0, 0.25);
+}
+.products__card__image {
+  min-height: 15rem;
+  max-height: 34.375rem;
+  margin: 1.25rem auto;
+}
+.products__card__text {
+  background-color: #fff0ed;
+  display: flex;
+  justify-content: space-around;
+  text-align: left;
+  border-bottom-left-radius: 0.625rem;
+  border-bottom-right-radius: 0.625rem;
+  box-shadow: 0 0.313rem 0.563rem 0.063rem rgba(0, 0, 0, 0.25);
+  flex: 1;
+}
+.products__card__left-side {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+.products__card__title {
+  margin-bottom: 0;
+}
+.products__card__quantity {
+  margin-top: 0;
+  color: #909090;
+}
+.products__card__price {
+  color: #5bacc3;
+  margin: auto 0;
+}
+.button__shop {
+  padding: 0.625rem 1.5rem;
+  min-width: 11.25rem;
+  max-width: 80%;
+  position: relative;
+}
+.view-button {
+  display: block;
+  margin: 2rem auto;
+}
+.discount {
+  display: flex;
+  justify-content: space-between;
+  padding: 10rem;
+}
+.discount__text {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  padding: 1.25rem;
+}
+.discount__text > * {
+  margin: 1.25rem;
+}
+.discount__text__logos {
+  display: flex;
+  justify-content: space-between;
+}
+.discount__text__logos__image {
+  min-width: 3.125rem;
+  max-width: 7.5rem;
+  flex: 0;
+}
+.discount__text__button {
+  max-width: 35%;
+}
+.button__shop::before {
+  content: "";
+  min-width: 11.25rem;
+  max-width: 80%;
+  border: 0.125rem solid #393939;
+  position: absolute;
+  top: -0.3125rem;
+  left: -0.3125rem;
+  bottom: 0.3125rem;
+  right: 0.3125rem;
+}
+.discount__image {
+  background-image: url("../assets/images/coldbrewbackground.png");
+  background-size: 25em;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-width: 25rem;
+  max-width: 31.25rem;
+  position: relative;
+}
+.discount__image::before {
+  content: "";
+  min-width: 25rem;
+  max-width: 31.25rem;
+  border: 0.3125rem solid #5bacc3;
+  position: absolute;
+  top: -1.25rem;
+  left: -1.25rem;
+  bottom: 1.25rem;
+  right: 1.25rem;
+}
+.discount__banner {
+  font-size: 2.813rem;
+  color: #fff;
+  text-align: center;
+  background-color: #393939;
+  min-width: fit-content;
+  max-width: 90%;
+  padding: 2rem;
+  margin: 8rem auto;
+}
+.footer__info {
+  display: inline-block;
+  padding: 2rem 4rem;
+}
+.footer__info__clause {
+  margin: 0;
+}
+.icon {
+  min-width: 3.125rem;
+  max-width: 7.5rem;
+}

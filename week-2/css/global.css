@@ -1,6 +1,7 @@
 * {
   font-family: "Open Sans";
   color: #393939;
+  box-sizing: border-box;
 }
 h1,
 h2 {
@@ -14,6 +15,7 @@ h3 {
 nav {
   font-size: 1.313rem;
   font-weight: 400;
+  display: inline-block;
 }
 p {
   font-size: 1.125rem;
@@ -22,16 +24,20 @@ p {
 ul {
   list-style-type: none;
 }
-/* a:link { 
-    color: #0000EE; 
+li {
+  display: inline-block;
 }
-a:visited { 
-    color: #551A8B; 
-} */
-.price {
-  color: #5bacc3;
+a {
+  text-decoration: none;
 }
 strong {
   font-weight: 700;
   color: inherit;
+}
+.nav__shop-now {
+  color: #5bacc3;
+}
+header {
+  display: flex;
+  justify-content: space-between;
 }

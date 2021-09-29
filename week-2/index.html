@@ -13,12 +13,14 @@
   </head>
   <body>
     <header>
-      <a href="./index.html"
-        ><img
-          src="./assets/logos/coffee-beans-logo-and-footer.svg"
-          alt="coffee bean logo"
-      /></a>
-      <a href="./index.html"><h2 class="nav__nitro">nitro</h2></a>
+      <div class="header__logo">
+        <a href="./index.html"
+          ><img
+            src="./assets/logos/coffee-beans-logo-and-footer.svg"
+            alt="coffee bean logo"
+        /></a>
+        <a href="./index.html"><h2 class="nav__nitro">nitro</h2></a>
+      </div>
       <nav class="nav__section">
         <ul>
           <li><a href="./index.html" class="nav__link">ABOUT</a></li>
@@ -35,8 +37,9 @@
       <article class="hero__text">
         <h1 class="hero__title">Nitro Coffee</h1>
         <p>
-          Coffee is a brewed drink prepared from roasted coffee beans, the seeds
-          of berries from certain Coffea species.
+          Coffee is a brewed drink prepared from <br />
+          roasted coffee beans, the seeds of berries <br />
+          from certain Coffea species.
         </p>
         <p>
           <button
@@ -54,15 +57,20 @@
     </section>
     <div class="products">
       <h2 class="products__title">Our Products</h2>
-      <article>
+      <article class="products__all__cards">
         <section class="products__card">
           <img
             src="./assets/images/coffeebeans.png"
             alt="coffee beans"
             class="products__card__image"
           />
-          <h3 class="products__card__title">Coffee Beans</h3>
-          <h3 class="products__card__price">$18.99</h3>
+          <div class="products__card__text">
+            <div class="products__card__left-side">
+              <h3 class="products__card__title">Coffee Beans</h3>
+              <p class="products__card__quantity">Pack of 3</p>
+            </div>
+            <h3 class="products__card__price"><strong>$19</strong></h3>
+          </div>
         </section>
         <section class="products__card">
           <img
@@ -70,8 +78,13 @@
             alt="cold brew"
             class="products__card__image"
           />
-          <h3 class="products__card__title">Cold Brew</h3>
-          <h3 class="products__card__price">$4.99</h3>
+          <div class="products__card__text">
+            <div class="products__card__left-side">
+              <h3 class="products__card__title">Cold Brew</h3>
+              <p class="products__card__quantity">1 can</p>
+            </div>
+            <h3 class="products__card__price"><strong>$5</strong></h3>
+          </div>
         </section>
         <section class="products__card">
           <img
@@ -79,8 +92,13 @@
             alt="in-house brew"
             class="products__card__image"
           />
-          <h3 class="products__card__title">In-house Brew</h3>
-          <h3 class="products__card__price">$2.99</h3>
+          <div class="products__card__text">
+            <div class="products__card__left-side">
+              <h3 class="products__card__title">In-house Brew</h3>
+              <p class="products__card__quantity">1 cup</p>
+            </div>
+            <h3 class="products__card__price"><strong>$3</strong></h3>
+          </div>
         </section>
       </article>
       <button
@@ -91,8 +109,40 @@
         VIEW ALL
       </button>
     </div>
-
-    <p class="discount">
+    <div class="discount">
+      <div class="discount__text">
+        <h2 class="discount__text__title">We're Different</h2>
+        <p>
+          We grow and roast our own beans. Every bean, every <br />cup, every
+          step of the way, we strive for excellence.
+        </p>
+        <div class="discount__text__logos">
+          <img
+            src="./assets/logos/planting.svg"
+            class="discount__text__logos__image"
+          />
+          <img
+            src="./assets/logos/coffee-beans.svg"
+            class="discount__text__logos__image"
+          />
+          <img
+            src="./assets/logos/coffee-cup.svg"
+            class="discount__text__logos__image"
+          />
+        </div>
+        <button
+          onclick="location.href='./index.html';"
+          style="cursor: pointer"
+          class="button__shop discount__text__button"
+        >
+          LEARN MORE
+        </button>
+      </div>
+      <div class="discount__image">
+        <img src="./assets/images/tiltedcan.png" />
+      </div>
+    </div>
+    <p class="discount__banner">
       Get 20% off your first order with code: <strong>FirstNitro</strong>
     </p>
     <footer>

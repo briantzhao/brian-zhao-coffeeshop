@@ -6,9 +6,6 @@ header {
   text-decoration: none;
   display: inline;
 }
-.header-nav {
-  display: inline-block;
-}
 .header-nav__link {
   padding-left: 1.25rem;
   padding-right: 1.25rem;
@@ -17,6 +14,9 @@ header {
   color: #5bacc3;
 }
 .menu__hero-image {
+  display: flex;
+  justify-content: center;
+  align-items: center;
   background-image: url("../assets/images/coffee-circle.jpg");
   width: 100%;
   min-height: 35.938rem;
@@ -32,7 +32,18 @@ header {
   max-height: 12.5rem;
   color: #fff;
   text-align: center;
-  margin: 0 auto;
+  position: relative;
+}
+.menu-title::before {
+  content: "";
+  min-width: 17.5rem;
+  max-width: 18.75rem;
+  min-height: 11.25rem;
+  max-height: 12.5rem;
+  border: 0.3125rem solid #5bacc3;
+  position: absolute;
+  top: -1.25rem;
+  left: -1.25rem;
 }
 .menu__nav {
   background-color: #393939;
