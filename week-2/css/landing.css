@@ -126,7 +126,7 @@ button {
 }
 .button__shop::before {
   content: "";
-  min-width: 11.25rem;
+  min-width: 10.9375rem;
   max-width: 80%;
   border: 0.125rem solid #393939;
   position: absolute;
@@ -147,8 +147,8 @@ button {
 }
 .discount__image::before {
   content: "";
-  min-width: 25rem;
-  max-width: 31.25rem;
+  min-width: 23.75rem;
+  max-width: 30rem;
   border: 0.3125rem solid #5bacc3;
   position: absolute;
   top: -1.25rem;
